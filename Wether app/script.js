@@ -1,7 +1,7 @@
 "use strict";
 
 let weather = {
-  apiKey: "d448e480f7793f45feb24805b78bd8b9",
+  apiKey: "",
   fetchWeather: function (city) {
     fetch(
       "http://api.openweathermap.org/data/2.5/weather?q=" +
